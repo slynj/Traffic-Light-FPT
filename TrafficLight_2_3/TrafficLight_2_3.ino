@@ -85,8 +85,6 @@ void trafficLight() {
     if (leftCar == true && NorthCycle == true && SouthCycle == true) {
       trafficLightControl(NS_BOUND, RED, OFF);
 
-      blinkCount++;
-
       if (blink) {
         trafficLightControl(NS_BOUND, GREEN, ON);
         blink = false;
