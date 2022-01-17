@@ -99,8 +99,6 @@ void trafficLight() {
         NorthCycle = false;
         SouthCycle = false;
         blinkCycle = 0;
-        blinkCount = 0;
-
         greNS = 1;
         redNS = 0;
       }
